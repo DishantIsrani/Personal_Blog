@@ -10,7 +10,10 @@ Link to the blog - https://dishantisrani.github.io/Personal_Blog/
 
 * This project is licensed under MIT License, See [LICENSE](/LICENSE) for more information.
 
+### Code of Conduct 
 
-### Author 
+* To contribute to this repository check here, see [CODE OF CONDUCT](/CODE_OF_CONDUCT.md).
 
-@Author : [Dishant Israni](https://github.com/DishantIsrani)
+### Author
+
+* @Author : [Dishant Israni](https://github.com/DishantIsrani)
