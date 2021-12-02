@@ -213,8 +213,9 @@ header{
 }
 
 .blog{
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
     padding: 4.5rem 0;
+    background-color: rgb(165, 164, 164)
 }
 
 .blog-content{
@@ -257,6 +258,8 @@ header{
     font-size: 1.1rem;
     opacity: 0.9;
     padding-bottom: 1.2rem;
+    height: 50px;
+    overflow: hidden;
 }
 
 .blog-text a{
@@ -269,10 +272,19 @@ header{
     color: var(--light);
     padding: 0.55rem 1.2rem;
     transition: all 0.5s ease;
+    margin-top: 2rem;
 }
 
 .blog-text a:hover{
     background: var(--exdark);
+}
+
+.blog-text.showContent p{
+    height: auto;
+}
+
+.blog-text.showContent a.readmore-btn{
+    background-color: var(--dark);
 }
 
 .about{

@@ -108,8 +108,8 @@
                     <div class="blog-text">
                         <span>23 November 2021</span>
                         <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, officia?</p>
-                        <a href="#">Read More</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.</p>
+                        <a href="javascript:void();" class="readmore-btn">Read More</a>
                     </div>
                 </div>
                 <div class="blog-item">
@@ -120,8 +120,8 @@
                     <div class="blog-text">
                         <span>23 November 2021</span>
                         <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, officia?</p>
-                        <a href="#">Read More</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.</p>
+                        <a href="javascript:void();" class="readmore-btn">Read More</a>
                     </div>
                 </div>
                 <div class="blog-item">
@@ -132,8 +132,8 @@
                     <div class="blog-text">
                         <span>23 November 2021</span>
                         <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, officia?</p>
-                        <a href="#">Read More</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.</p>
+                        <a href="javascript:void();" class="readmore-btn">Read More</a>
                     </div>
                 </div>
                 <div class="blog-item">
@@ -144,8 +144,8 @@
                     <div class="blog-text">
                         <span>23 November 2021</span>
                         <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, officia?</p>
-                        <a href="#">Read More</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.</p>
+                        <a href="javascript:void();" class="readmore-btn">Read More</a>
                     </div>
                 </div>
                 <div class="blog-item">
@@ -156,8 +156,20 @@
                     <div class="blog-text">
                         <span>23 November 2021</span>
                         <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, officia?</p>
-                        <a href="#">Read More</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.</p>
+                        <a href="javascript:void();" class="readmore-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="images/space.jpg" alt="">
+                        <span><i class="fas fa-heart"></i></span>
+                    </div>
+                    <div class="blog-text">
+                        <span>23 November 2021</span>
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam, perspiciatis vero, amet iusto harum aut a consectetur dicta dolor non doloremque voluptas quia nesciunt, natus quidem recusandae deserunt ducimus.</p>
+                        <a href="javascript:void();" class="readmore-btn">Read More</a>
                     </div>
                 </div>
             </div>
@@ -193,6 +205,16 @@
         </div>
         <span>Dishant Personal Blog</span>
     </footer>
-</body>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script>
+        $(".readmore-btn").on('click', function(){
+            $(this).parent().toggleClass('showContent');
+ 
+            var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+            $(this).text(replaceText);
+        });
+    </script>
+
+</body>
 </html>
