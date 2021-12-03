@@ -15,6 +15,6 @@ Link to the blog - https://dishantisrani.github.io/Personal_Blog/
 
 * To contribute to this repository check here, see [CODE OF CONDUCT](/CODE_OF_CONDUCT.md).
 
-### Author 
+### Author
 
 * @Author : [Dishant Israni](https://github.com/DishantIsrani)
